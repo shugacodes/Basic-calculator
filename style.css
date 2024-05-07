@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #faf9f9
+}
+
+.main-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.heading{
+    width: 30%;
+    height: auto;
+    padding-left: 4rem;
+}
+
+.table{
+    width: 70%;
+    height: auto;
+}
+
+h2{
+    margin-top: 4px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 38px;
+    color: #065b66;
+}
+
+p{
+    color: #d7d7d7;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+a{
+    text-decoration: underline;
+    color:rgb(23, 10, 204);
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+table{
+    width:40%;
+    margin: 10px auto;
+    background-color: #616369;
+    padding: 20px;
+    border-radius: 25px;
+    border-bottom: 15px solid #515259;
+
+}
+
+input[type="text"]{
+    text-align: right;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #cfd6e1;
+    font-size: 2rem;
+    padding: 15px;
+    border: none ;
+    margin-bottom: 20px;
+    border-bottom: 12px solid #c2c7d3;
+    color: black;
+    outline: none;
+    overflow-x: hidden;
+}
+
+button{
+    font-weight: 900;
+    font-size: 50px;
+    padding: 3px;
+    margin: 5px auto;
+    border-radius: 15px;
+    border-right: 2px solid #e7e7e7;
+    border-bottom: 5px solid #e7e7e7;
+    border-top: none;
+    border-left: none;
+    width: 100%;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #ccc;
+}
+
+button:active{
+    background-color: #a3a0a0;
+}
+
+td{
+    padding: 5px;
+}
+
+#equal-btn{
+    background-color: rgb(234, 134, 15);
+    border-right: 2px solid rgb(190, 104, 2);
+    border-bottom: 5px solid rgb(190, 104, 2);
+}
+
+#equal-btn:hover{
+    background-color: rgb(190, 92, 1);
+}
+
+#equal-btn:active{
+    background-color: rgb(190, 92, 1);
+}
+
+
+@media(max-width: 999.99px){
+    table{
+        width: 50vw;
+    }
+}
+
+@media(max-width: 759.99px){
+    table{
+        width: 90vw;
+        margin: 3rem auto;
+    }
+}
